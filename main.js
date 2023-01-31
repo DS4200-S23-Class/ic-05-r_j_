@@ -7,6 +7,8 @@ function clickedTimes(){
 
 	numCount += 1;
 	let countTracker = "Number of times button clicked: " + numCount;
+	console.log(numCount);
+	
 	let buttonDiv = document.getElementById("button-div");
 
 	buttonDiv.innerHTML = countTracker; 
